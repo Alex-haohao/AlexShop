@@ -14,15 +14,15 @@ export default class FootNav extends React.Component{
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/shop">
+                        <NavLink to="/shoppingcar">
                             <i className="iconfont icon-shop"></i>
-                            商城
+                            购物车
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/life">
                             <i className="iconfont icon-trophy"></i>
-                            生活服务
+                            测试页面
                         </NavLink>
                     </li>
                     <li>

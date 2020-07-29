@@ -18,7 +18,7 @@ export default class DetailData extends React.Component{
                 this.setState({
                     comment:data.data
                 })
-                console.log(data)
+                
             }
         )
 
@@ -27,7 +27,9 @@ export default class DetailData extends React.Component{
             data=>{
                 this.setState({
                     detailsData:data
+                    
                 })
+                
             }
         )
     }
@@ -37,7 +39,7 @@ export default class DetailData extends React.Component{
             <div>
 
             {
-                this.state.detailsData && this.state.comment? <DetailsView data={this.state.detailsData} comment = {this.state.comment}/> :
+                this.state.detailsData && this.state.comment? <DetailsView history={this.props.history} id={this.props.id} data={this.state.detailsData} comment = {this.state.comment}/> :
                 <div>Loading ......</div>
             }
             </div>

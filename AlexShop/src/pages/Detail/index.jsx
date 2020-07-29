@@ -7,7 +7,7 @@ export default class Detail extends React.Component{
         const id = this.props.match.params.id
         return(
             <div>
-               <DetailsData id = {id}/>
+               <DetailsData id = {id} history={ this.props.history }/>
             </div>
         )
     }

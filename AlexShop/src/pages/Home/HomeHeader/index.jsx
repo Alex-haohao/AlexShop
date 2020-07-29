@@ -13,7 +13,6 @@ export default class HomeHeader extends React.Component {
                     
                 </div>
                 <div className="home-header-right float-right">
-                    <i className="iconfont icon-car"></i>
                 </div>
                 <div className="home-header-middle">
                     <div className="search-container">

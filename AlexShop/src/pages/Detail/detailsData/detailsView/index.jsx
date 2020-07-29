@@ -7,6 +7,8 @@ import "./style.less"
 import DetailHeader from "../../../../components/Header"
 import Tabs from "../../../../components/Tabs"
 import CommentView from '../commentView'
+import StoreBuy from "../storeBuy"
+
 
 export default class DetailsView extends React.Component {
     render() {
@@ -44,8 +46,12 @@ export default class DetailsView extends React.Component {
 
              <tab tabname="comment">
                  <CommentView comments = {comments}/>
+
              </tab>
 </Tabs>
+<StoreBuy id={ this.props.id } history={this.props.history}  data={data}/> 
+
+
             </div> 
            
               

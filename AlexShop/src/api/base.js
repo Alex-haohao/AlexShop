@@ -5,7 +5,10 @@ const base = {
     swiperimg1:"/api/swiper1",
     search:"/api/search",
     details:"/api/details",
-    comment:"/api/comment"
+    comment:"/api/comment",
+    shopcar:"/api/shopcar",
+    checkshopcar:"/api/checkshoppingcar",
+    deleteshopcar:"/api/deleteshoppingcar"
 
 }
 
